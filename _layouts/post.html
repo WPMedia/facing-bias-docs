@@ -19,6 +19,12 @@ layout: default
     {{ content }}
   </div>
 
+  <br>
+  <hr>
+
+  <h2 id="posts" class="page-heading">Recent posts</h2>
+  {% include blogPostList.html %}
+
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}

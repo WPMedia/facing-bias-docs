@@ -3,6 +3,24 @@
 
 @import 'jekyll-theme-cayman';
 
+.page-header {
+	@media (max-width: 64em) {
+		padding-bottom: 1rem;
+	}
+
+	.btn {
+		@media (max-width: 42em) {
+			font-size: 0.8rem;
+			padding: 0.6rem;
+		}
+	}
+}
+
+.project-name a{
+	color: white;
+	text-decoration: none;
+}
+
 .project-tagline {
 	max-width: 64rem;
     padding: 0 6rem;
@@ -11,6 +29,7 @@
 
     @media (max-width: 64em) {
     	padding: 0px;
+    	font-size: 15px;
     }
 }
 

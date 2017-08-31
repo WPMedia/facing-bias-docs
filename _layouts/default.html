@@ -11,11 +11,12 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <a class="wp-logo-link" href="https://www.washingtonpost.com"><img alt="The Washington Post" src="https://www.washingtonpost.com/pb/resources/img/thewashingtonpost-white-2x.png" width="181"></a>
+      <h1 class="project-name"><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <a href="#about" class="btn">About the project</a>
+      <a href="/about/" class="btn">About the project</a>
       <a href="#posts" class="btn">Recent posts</a>
-      <a href="https://github.com/WPMedia/facing-bias-docs" class="btn">View on Github</a>
+      <a href="https://github.com/WPMedia/facing-bias-docs" target="_blank" class="btn">View on Github</a>
     </section>
 
     <section class="main-content">
